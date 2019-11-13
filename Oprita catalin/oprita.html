@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+
+<style>
+h1 {
+color: orange;
+
+text-align: center;
+font-family: verdana;
+
+}
+p    {
+color: red;
+text-align:left;
+font-family: courier;
+border: 1px solid powderblue;
+}
+body {
+ background-image: url("112.jpg");
+ background-color: #cccccc;
+}
+li{
+
+color: red;
+}
+
+th{
+color: yellow;}
+tr:hover {background-color : red;}
+img {
+  border-radius: 20%;
+   opacity: 0.8;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+table{
+
+border-color= red;
+border-width=2;
+}
+
+</style>
+<html>
+<head>Oprita Catalin</head>
+<body >
+<p id="demo">Numele meu este Oprita Catalin Ionut,iar email-ul meu este opritacatalinionut@gmail.com</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<script>
+function myFunction() {
+  var str = document.getElementById("demo").innerHTML; 
+  var res = str.replace("Numele meu este Oprita Catalin Ionut,iar email-ul meu este opritacatalinionut@gmail.com", "As vrea sa fiu CEO la o firma de IT");
+  document.getElementById("demo").innerHTML = res;
+}
+</script>
+
+<img src="IMG_3202.jpg" width=500 height=400 class="center">
+<div>
+<h1>Intregul rost al educatiei este sa transforme oglinzile in ferestre. Sydney J. Harris</h1>
+
+
+<p id="demo">Pe timpul acestei facultati mi-ar placea sa aprofundez fizica pentru ca studiaza modul in care se comporta mediul inconjurator.De asemenea,as aprofunda Componente si Circuite Pasive si Analiza Matematica </p>
+<table >
+  <tr>
+    <th><a href="https://etti.utcluj.ro/files/FiseDisciplina/EaRo/03.pdf">Fizica</a></th>
+    <th><a href="https://etti.utcluj.ro/files/FiseDisciplina/EaRo/05.pdf">Componente si circuite pasive</a></th>
+    <th><a href="https://etti.utcluj.ro/files/FiseDisciplina/EaRo/01.pdf">Analiza matematica</a></th>
+  </tr>
+<tr>
+    <th>Anul 1</th>
+    <th>Anul 1</th>
+    <th>Anul 1</th>
+  </tr>
+  
+</table>
+<p>Imi place sa:</p>
+<ul>
+  <li>Fac curat</li>
+  <li>Cumpar haine</li>
+  <li>Ma joc League of Legends</li>
+</ul>
+
+</div>
+<img src="tenor.gif">
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<body id="bg">
+<script src="Script.js"></script>
+<head>
+<title>Florea Denisa-Maria</title>
+
+<style>
+
+h1 {
+	color: #cc0000;
+	text-align: center;
+	  text-shadow: 2px 2px black;
+	  font-size: 50px;
+	}
+	
+h3 {
+	color: #640000;
+	 font-size: 20px;
+	 text-align:center;
+	 font-style: italic;
+	}
+	
+p.italic {
+	color: rgb(206, 121, 0);
+	margin-right: 25%;
+	margin-left: 25%;
+	text-align: right;
+	font-style: italic;
+	font-size: 25px;
+	
+	}
+	
+p.date {
+	font-style: italic;
+	color: white;
+	background:#640000;
+	margin-left: 25%;
+	padding-right:5px;
+	}
+	
+img {
+	height: 300px;
+	border-radius: 50px;
+	background-position: left top;
+	opacity: 0.8;
+	 display: block;
+  margin-left: auto;
+  margin-right: auto;
+	}
+	
+table {
+	border-collapse: collapse;
+	margin-left: 25%;
+	width: 50%;
+	text-align:center;
+	background: white;
+	border: 1px solid black;
+	}
+	
+th {
+  background-color: #640000;
+  color: white;
+  border: 1px solid black;
+}
+
+tr, td {
+	border: 1px solid black;
+	}
+
+ul {
+	text-align: center;
+	list-style-type: none;
+	color: black;
+	font-size: 20px;
+	
+	margin-left:25%
+	margin-right:25%;
+	padding-left:10px;
+	}
+	
+p {
+	text-align: right;
+	margin-right:25%;
+	font-family: Arial, Helvetica, sans-serif;
+	}
+	
+	body {
+  background: #ffd9b3;
+}
+</style>
+<script>
+
+ function viata() {
+	document.getElementById('nume').innerHTML = 'Cassia';
+	document.getElementById('citat').innerHTML = 'pulvis et umbra sumus <br> -  Cassandra Clare';
+	document.getElementById('email').innerHTML = 'E-mail: deni.dnx21@gmail.com';
+	document.getElementById('materie1').innerHTML = 'Fizica';
+	document.getElementById('materie1').href = 'https://etti.utcluj.ro/files/FiseDisciplina/EaRo/03.pdf';
+	//alert("Totul se va schimba!");
+	document.getElementById('materie2').innerHTML = 'Informatica Aplicata';
+	document.getElementById('materie2').href = 'https://etti.utcluj.ro/files/FiseDisciplina/EaRo/06.pdf';
+	document.getElementById('hobby1').innerHTML = 'Desen';
+	document.getElementById('hobby2').innerHTML = 'Muzica';
+	document.getElementById('hobby3').innerHTML = 'Volunatriat';
+	document.getElementById('bg').style.background = '#ffffff';
+	document.getElementById('poza2').src = 'pic2.jpg';
+	document.getElementById('poza2').style.opacity = '0.5';
+}
+
+
+</script>
+</head>
+
+<h1 id="nume">FLOREA DENISA-MARIA</h1>
+
+<br>
+<img id="poza2"  src="pic.png" >
+<p id="citat" class="italic">O buna educatie cere ca educatorul sa inspire elevului stima si respect, si nu se
+poate ajunge la aceasta prin nimicirea individualitatii elevilor si prin asuprirea
+stimei de sine<br> - Samuel Smiles</p>
+
+<br><br>
+<p id="email" class="date" align="right">E-mail: florea.denisa201@gmail.com</p>
+<h3>Tabel discipline</h3>
+<table>
+<tr>
+	<th>Disciplina</th>
+	
+	<th>Anul</th>
+</tr>
+<tr>
+	<td><a id="materie1" href="https://etti.utcluj.ro/files/FiseDisciplina/EaRo/05.pdf">Componente si circuite electronice pasive</a></td>
+	
+	<td>Anul I</td>
+</tr>
+
+<tr>
+	<td><a id="materie2" href="https://etti.utcluj.ro/files/FiseDisciplina/EaRo/17.pdf">Grafica asistata de calculator</a></td>
+	
+	<td>Anul II</td>
+</tr>
+
+<tr>
+	<td><a href="https://etti.utcluj.ro/files/FiseDisciplina/EaRo/29.pdf">Proiectarea asistata de calculator</a></td>
+	
+	<td>Anul II</td>
+</tr>
+</table>
+<br>
+<h3>Hobby-uri</h3>
+<ul>
+	<li id="hobby1">Reconstituire istorica</li>
+	<li id="hobby2">Modelare 3D</li>
+	<li id="hobby3">Dans</li>
+</ul>
+<br>
+<br>
+<p><a href="FloreaDenisa_lab4_3.html">Inapoi la agenda</a></p>
+<input type="button" onclick="viata()" value="Alta viata!">
+</body>
+</html>
